@@ -1,0 +1,242 @@
+<!--Comentario-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="description"
+      content="Portfolio de Brayan Gutiérrez, desarrolador 
+    web jr de Tlati Digital"
+    />
+    <!--Open Graph-->
+    <meta property="og:title" content="Portfolio de un ingeniero de software" />
+    <meta
+      property="og:description"
+      content="Portfolio de Brayan Gutiérrez, 
+    experiencia en React"
+    />
+    <meta property="og:image" content="images/profile.jpg" />
+    <meta
+      property="og:image:alt"
+      content="Una fotografía de Brayan Gutiérrez"
+    />
+    <link rel="alternate" href="" hreflang="es-GB" />
+    <link rel="canonical" href="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio Brayan Gutiérrez</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#09f" />
+    <link rel="icon" type="image/jpg" href="images/profile.jpg" />
+
+    <style>
+      body {
+        background-color: rgba(135, 221, 255, 0.9);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio de Brayan Gutiérrez Oropeza</h1>
+      <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a
+        ><!--Enlaces internos-->
+        <a href="https://twitch.tv/midudev" target="_blank" rel="noreferrer"
+          >Twitch</a
+        >
+      </nav>
+    </header>
+    <!--
+<video
+      controls
+      muted
+      poster="/CursoCompletoHtml/images/profile.jpg"
+      src="./videos/Upbeat Drums Percussion Background Music For Kinetic Typography Video by MUSIC4VIDEO.mp4"
+    ></video>
+    -->
+
+    <main>
+      <p>
+        6 seis meses de experiencia como
+        <strong>Ingeniero de Software</strong> Atualmente estoy como
+        desarrollador web Jr
+      </p>
+
+      <h2 id="experiencia">Experiencia</h2>
+
+      <ul>
+        <li>Tlati Digital</li>
+        <li>Other experience</li>
+      </ul>
+      <a download href="images/profile.jpg">
+        <img
+          width="200"
+          height="200"
+          title="Foto de Brayan"
+          alt="Una fotografía de Brayan Gutiérrez"
+          src="images/profile.jpg"
+        />
+      </a>
+
+      <h2 id="proyectos">Proyectos realizados</h2>
+      <aside>
+        <header>
+          <h3>Mis tecnologías favoritas</h3>
+        </header>
+        <ol type="1" reversed start="10">
+          <li>Html</li>
+          <li>Css</li>
+          <li value="5">JavaScript</li>
+          <li>React</li>
+        </ol>
+      </aside>
+
+      <section>
+        <article>
+          <header>
+            <h4>Sitio Web Corporativo</h4>
+          </header>
+          <p>
+            Desarrollo de un sitio web corporativo con una interfaz amigable y
+            moderna
+          </p>
+          <footer>
+            <small>Tecnologías utlizadas: HTML, CSS, JavaScript</small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Sitio Web Corporativo</h4>
+          </header>
+          <p>
+            Desarrollo de un sitio web corporativo con una interfaz amigable y
+            moderna
+          </p>
+          <footer>
+            <small>Tecnologías utlizadas: HTML, CSS, JavaScript</small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Sitio Web Corporativo</h4>
+          </header>
+          <p>
+            Desarrollo de un sitio web corporativo con una interfaz amigable y
+            moderna
+          </p>
+          <footer>
+            <small>Tecnologías utlizadas: HTML, CSS, JavaScript</small>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <h2>Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Qué estudios tienes?</summary>
+          <p>
+            Estudié en la universidad de Vilanova una Ingeniería de Informática
+            durante 5 años
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cuáles son tus hobbies?</summary>
+          <p>Me gusta mucho el deporte, sobre todo el fútbol y el baloncesto</p>
+        </details>
+
+        <details>
+          <summary>¿Cuál es tu lenguaje favorito</summary>
+          <p>
+            Me encanta JavaScript, es un leguaje muy versátil y con el que
+            sepueden hacer muchas cosas
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Formulario de contacto</h2>
+        <form method="post" action="/">
+          <fieldset>
+            <legend>Informacón personal</legend>
+            <div>
+              <label
+                >Nombre:
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Brayan Gutiérrez Oropeza"
+                  required
+                />
+              </label>
+            </div>
+
+            <label
+              >Email:
+              <input
+                type="email"
+                name="email"
+                placeholder="br.desarrolador@gmail.com"
+                required
+              />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Información adicional</legend>
+            <div>
+              <label
+                >Teléfono:
+                <input
+                  type="tel"
+                  name="name"
+                  placeholder="Brayan Gutiérrez Oropeza"
+                  required
+                  pattern="[0-9]{10}"
+                />
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Otros</legend>
+            <div>
+              <label for="why">¿Por qué quieres contactar?</label>
+              <select name="why" id="why">
+                <option value="1">Trabajo</option>
+                <option value="2">Duda</option>
+                <option value="3">Más información</option>
+              </select>
+            </div>
+            <div>
+              <label for="terms">¿Aceptas los términos?</label>
+              <input type="checkbox" id="terms" name="terms" required />
+            </div>
+            <div>
+              <datalist id="languages">
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+                <option value="Java"></option>
+                <option value="C#"></option>
+              </datalist>
+              <label>
+                ¿Con qué lenguaje quieres que te ayude?
+                <input list="languages" name="languages" />
+              </label>
+            </div>
+          </fieldset>
+          <!--<input type="submit" value="Enviar contacto" />-->
+          <button type="submit">Enviar contacto1</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      Copyright 2023 - El Portfolio más bello del mundo
+      <a href="mailto:br.desarrollador@gmail.com">Envíame un correo</a>
+      <a href="tel:+525521314409">Llamar por teléfono</a>
+      <a href="whatsapp://send?text=Hola midudev">Manda wasap</a>
+    </footer>
+  </body>
+</html>
